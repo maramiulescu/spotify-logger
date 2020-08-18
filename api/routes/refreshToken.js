@@ -11,10 +11,11 @@ var redirect_uri = 'http://localhost:9000/callback'; // Your redirect uri
 
 var stateKey = 'spotify_auth_state';
 
-router.get('/', function(req, res) {
+
+router.post('/', function(req, res) {
 
     // requesting access token from refresh token
-    var refresh_token = req.query.refresh_token;
+    var refresh_token = req.body.refresh_token;
     var authOptions = {
         url: 'https://accounts.spotify.com/api/token',
         headers: { 'Authorization': 'Basic ' + (new Buffer(client_id + ':' + client_secret).toString('base64')) },
@@ -24,14 +25,24 @@ router.get('/', function(req, res) {
         },
         json: true
     };
+    console.log(refresh_token);
 
     request.post(authOptions, function(error, response, body) {
+        console.log("Posting refresh request");
         if (!error && response.statusCode === 200) {
             var access_token = body.access_token;
-            res.send({
-                'access_token': access_token
-            });
-        }
+            res.redirect('http://localhost:3000/#' +
+                querystring.stringify({
+                    access_token: access_token,
+                    refresh_token: refresh_token
+                }));
+        } else {
+            res.redirect('/#' +
+                querystring.stringify({
+                    error: 'invalid_token'
+                }));
+        };
+        console.log(response.body);
     });
 });
 

@@ -8,12 +8,14 @@ class App extends Component {
   constructor() {
     super();
     const params = this.getHashParams();
-    const token = params.access_token;
-    if (token) {
-        spotifyApi.setAccessToken(token);
+    const access_token = params.access_token;
+    const refresh_token = params.refresh_token;
+    if (access_token) {
+        spotifyApi.setAccessToken(access_token);
     }
     this.state = {
-        loggedIn: token ? true : false,
+        loggedIn: access_token ? true : false,
+        refresh_token: refresh_token,
         currentTrack: {
             name: '',
             artist: '',
@@ -135,11 +137,33 @@ class App extends Component {
           .catch((error) => {
               console.error('Error:', error);
           });
-}
+    }
+    refreshToken() {
+      const data = {
+          refresh_token: this.state.refresh_token
+      };
+      fetch('http://localhost:9000/refreshToken', {
+          method: 'POST',
+          headers: {
+              'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(data)
+      }).then(response => response.json())
+          .then(data => {
+              console.log('Success:', data);
+          })
+          .catch((error) => {
+              console.error('Error:', error);
+          });
+    }
 
   componentDidMount() {
       this.getCurrentTrack();
       this.timer = setInterval(() => this.updateCurrentTrack(), 2000);
+      //this.timer = setInterval(() => this.refreshToken(), 10000);
+      setTimeout(function () {
+          window.location = "http://localhost:9000/login";
+      }, 1800000);
   }
 
   componentWillUnmount() {

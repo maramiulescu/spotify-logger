@@ -30,7 +30,6 @@ date,time,name,artist,time played,duration
 17/08/2020,23:27:49,Homeward Bound,Simon & Garfunkel,0:35,2:30
 17/08/2020,23:28:24,Starless,King Crimson,0:03,12:25
 17/08/2020,23:28:28,Jugband Blues - 2011 Remastered Version,Pink Floyd,0:06,3:01
-Invalid Date,Invalid Date,,,0:00,0:00
 18/08/2020,12:50:05,Slomo,Slowdive,1:58,6:53
 18/08/2020,12:52:04,Don't Know Why,Slowdive,4:31,4:37
 18/08/2020,12:56:35,Leave Them All Behind - 2001 Remaster,Ride,5:41,8:17
@@ -39,7 +38,6 @@ Invalid Date,Invalid Date,,,0:00,0:00
 18/08/2020,13:09:21,Feel It,The Brian Jonestown Massacre,6:10,6:15
 18/08/2020,13:15:31,Just Like Kicking Jesus,The Brian Jonestown Massacre,4:37,4:38
 18/08/2020,13:20:09,Bloodhail,Have A Nice Life,1:26,5:38
-Invalid Date,Invalid Date,,,0:00,0:00
 18/08/2020,13:28:09,I Love You,Spacemen 3,5:32,5:32
 18/08/2020,13:33:41,Just Like Kicking Jesus,The Brian Jonestown Massacre,0:04,4:38
 18/08/2020,13:33:45,This Is the One Thing We Did Not Want to Have Happen,The Brian Jonestown Massacre,0:08,7:10
@@ -67,3 +65,61 @@ Invalid Date,Invalid Date,,,0:00,0:00
 18/08/2020,17:30:48,Echoes - 2011 Remastered Version,Pink Floyd,0:30,23:32
 18/08/2020,17:31:19,Jugband Blues - 2011 Remastered Version,Pink Floyd,0:01,3:01
 18/08/2020,17:31:21,The Orange Monkey,PJ Harvey,2:45,2:47
+18/08/2020,18:04:47,Destination,Felt,6:42,6:42
+18/08/2020,18:11:28,The Sound Of Confusion,Spacemen 3,5:55,5:55
+18/08/2020,18:17:23,Sunshine Superman,Donovan,3:15,3:15
+18/08/2020,18:20:39,These Shadows,Wooden Shjips,5:25,5:25
+18/08/2020,18:26:04,Staring At The Sun,Wooden Shjips,7:28,7:28
+18/08/2020,18:33:33,Voodoo Child (Slight Return),Jimi Hendrix,0:04,5:13
+18/08/2020,18:45:35,January Rain,Psychic Ills,4:05,5:38
+18/08/2020,18:49:06,Inauration,Psychic Ills,0:01,1:57
+18/08/2020,18:49:07,I Knew My Name,Psychic Ills,0:08,8:33
+18/08/2020,18:49:15,I Don't Mind,Psychic Ills,4:40,4:41
+18/08/2020,18:53:54,Ra Wah Wah,Psychic Ills,8:56,9:12
+18/08/2020,19:02:51,Never Learn Not to Love,Psychic Ills,0:11,4:12
+18/08/2020,19:23:23,(Nice Dream),Radiohead,3:53,3:53
+18/08/2020,19:25:38,The National Anthem,Radiohead,2:39,5:52
+18/08/2020,19:28:16,Subterranean Homesick Alien,Radiohead,4:27,4:28
+18/08/2020,19:36:25,See You There,Psychic Ills,5:03,5:03
+18/08/2020,19:41:28,FBI,Psychic Ills,3:33,3:33
+18/08/2020,19:45:02,East,Psychic Ills,1:39,1:40
+18/08/2020,19:56:20,Dreams Via Memories,Ceramic Animal,4:50,4:50
+18/08/2020,20:01:08,Exorcism,Megachurch,0:04,4:29
+18/08/2020,20:01:13,Mr. Churchill Says,The Kinks,0:04,4:43
+18/08/2020,20:01:16,Sä et tuu enää takaisin koskaan,Teksti-TV 666,0:03,4:23
+18/08/2020,20:01:18,Mandrake handshake,The Brian Jonestown Massacre,0:02,3:41
+18/08/2020,20:01:21,Lunar Surf Graveyard,The Brian Jonestown Massacre,0:01,3:42
+18/08/2020,20:08:56,Go Get It,Slowdive,6:09,6:10
+18/08/2020,20:14:24,It's Working,MGMT,4:06,4:06
+18/08/2020,20:18:28,Feet Don't Fail Me,Queens of the Stone Age,0:05,5:42
+18/08/2020,20:18:33,Fix Me,Black Flag,0:02,0:58
+18/08/2020,20:18:35,Misery Is a Butterfly,Blonde Redhead,0:02,5:08
+18/08/2020,20:18:37,Little Jack,The Velvet Underground,0:02,3:27
+18/08/2020,20:18:39,Red,King Crimson,0:00,6:16
+18/08/2020,20:18:41,Black Water,Reuben And The Dark,0:00,2:34
+18/08/2020,20:18:43,Situation Vacant - Mono Mix,The Kinks,0:01,3:15
+18/08/2020,20:18:55,Psycho Killer - 2005 Remaster,Talking Heads,4:21,4:21
+18/08/2020,20:23:12,Robot Stop,King Gizzard & The Lizard Wizard,0:07,5:22
+18/08/2020,20:23:19,Stefan en Lisette,Spinvis,0:02,7:05
+18/08/2020,20:23:21,One Thing Left to Try,MGMT,0:00,4:20
+18/08/2020,20:23:23,Almost Cut My Hair,Crosby Stills Nash & Young,0:02,4:29
+18/08/2020,20:23:26,Flowers,Palmas,0:00,3:18
+18/08/2020,20:23:27,Pulk/Pull Revolving Doors,Radiohead,0:02,4:07
+18/08/2020,20:27:19,Porno for Pyros,Porno for Pyros,3:07,3:07
+18/08/2020,20:30:26,Pushit,TOOL,9:56,9:56
+18/08/2020,20:40:23,When You're Small,MGMT,0:19,3:31
+18/08/2020,21:17:39,Blue,A Perfect Circle,4:13,4:14
+18/08/2020,21:21:49,Life In a Glasshouse,Radiohead,0:30,4:37
+18/08/2020,21:22:20,Vanishing,A Perfect Circle,4:51,4:51
+18/08/2020,21:27:10,Crimes,A Perfect Circle,2:35,2:35
+18/08/2020,21:29:46,Weak And Powerless,A Perfect Circle,3:15,3:15
+18/08/2020,21:33:01,The Package,A Perfect Circle,0:60,7:40
+18/08/2020,21:34:03,Cyniculture,Stage Kids,3:51,3:53
+18/08/2020,21:37:55,Rumble,Link Wray,0:13,2:26
+18/08/2020,21:38:11,Cyniculture,Stage Kids,3:52,3:53
+18/08/2020,21:42:03,Nazo Nazo,Kikagaku Moyo,3:07,3:08
+18/08/2020,21:58:05,Slomo,Slowdive,6:53,6:53
+18/08/2020,22:04:55,Don't Know Why,Slowdive,4:35,4:37
+18/08/2020,22:09:33,Shine a Light,Spiritualized,7:13,7:15
+18/08/2020,22:16:48,Angel Sigh,Spiritualized,5:45,5:47
+18/08/2020,22:22:35,Sway,Spiritualized,6:54,6:54
