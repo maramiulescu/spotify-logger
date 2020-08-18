@@ -152,8 +152,8 @@ class App extends Component {
         <div className="App">
             <img src={this.state.currentTrack.album_art} height={850} style={{marginTop: 50}}/>
             <div>
-                <p style={{fontSize: 20}}>{this.state.currentTrack.name}</p>
-                <p style={{fontSize: 15}}>{this.state.currentTrack.artist}</p>
+                <h1>{this.state.currentTrack.name}</h1>
+                <h2>{this.state.currentTrack.artist}</h2>
             </div>
         </div>
     )

@@ -1,10 +1,11 @@
 var express = require('express');
 var querystring = require('querystring');
 var router = express.Router();
+require('dotenv').config();
 
 // Spotify API credentials
-var client_id = '09887c2c967f4561be433ac810473860'; // Your client id
-var client_secret = 'd28d5990fc3b44a0899205ce780d1d9f'; // Your secret
+var client_id = process.env.CLIENT_ID; // Your client id
+var client_secret = process.env.CLIENT_SECRET; // Your secret
 var redirect_uri = 'http://localhost:9000/callback'; // Your redirect uri
 
 var stateKey = 'spotify_auth_state';
