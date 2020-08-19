@@ -39,6 +39,7 @@ router.post("/", function(req, res, next) {
         function(err) {
         if (err) throw err;
     })
+    res.send('response');
 })
 
 module.exports = router;

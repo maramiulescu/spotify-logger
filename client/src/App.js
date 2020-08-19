@@ -130,9 +130,9 @@ class App extends Component {
               'Content-Type': 'application/json',
           },
           body: JSON.stringify(logData)
-      }).then(response => response.json())
-          .then(data => {
-              console.log('Success:', data);
+      })
+          .then(response => {
+              console.log('Success:', response);
           })
           .catch((error) => {
               console.error('Error:', error);
