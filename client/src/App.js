@@ -176,8 +176,8 @@ class App extends Component {
         <div className="App">
             <img className="Album-art" src={this.state.currentTrack.album_art}/>
             <div className="Song-caption">
-                <p>{this.state.currentTrack.name}</p>
-                <p>{this.state.currentTrack.artist}</p>
+                <p><h2>{this.state.currentTrack.name}</h2></p>
+                <p><h3>{this.state.currentTrack.artist}</h3></p>
             </div>
         </div>
     )
