@@ -174,10 +174,10 @@ class App extends Component {
     render() {
     return (
         <div className="App">
-            <img src={this.state.currentTrack.album_art} height={850} style={{marginTop: 50}}/>
-            <div>
-                <h1>{this.state.currentTrack.name}</h1>
-                <h2>{this.state.currentTrack.artist}</h2>
+            <img className="Album-art" src={this.state.currentTrack.album_art}/>
+            <div className="Song-caption">
+                <p>{this.state.currentTrack.name}</p>
+                <p>{this.state.currentTrack.artist}</p>
             </div>
         </div>
     )
